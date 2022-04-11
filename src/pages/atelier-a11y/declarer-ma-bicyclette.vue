@@ -247,7 +247,11 @@ export default {
       for (let i = 0, il = fields.length, f; i < il; ++i) {
         f = fields[i];
         const isValid = f.checkValidity && f.checkValidity();
-        if (f.nextSibling && f.nextSibling.classList) {
+        if (
+          f.nextSibling &&
+          f.nextSibling.classList &&
+          f.nextSibling.classList.contains('fr-error-text')
+        ) {
           f.nextSibling.classList.toggle('fr-hidden', isValid);
         }
         if (!isValid) {
