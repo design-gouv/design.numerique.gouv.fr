@@ -1,5 +1,6 @@
 <template>
-	<Layout>
+
+	<Presentation>
 		<div class="reveal">
 			<div class="slides">
 
@@ -37,28 +38,10 @@
 			</div>
 		</div>
 		
-	</Layout>
+	</Presentation>
 </template>
 
-<!-- SCRIPT REVEAL ET CSS  -->
-<link rel="stylesheet" href="/static/assets/css/reveal.css"></link>
-<link rel="stylesheet" href="/static/assets/css/custom.css"></link>
-<!-- <script src="dist/reveal.js"></script> -->
-<!-- <script src="/static/assets/js/reveal.js"></script> -->
-<script src="plugin/notes/notes.js"></script>
-<script src="plugin/markdown/markdown.js"></script>
-<script src="plugin/highlight/highlight.js"></script>
-<script>
-	// More info about initialization & config:
-	// - https://revealjs.com/initialization/
-	// - https://revealjs.com/config/
-	Reveal.initialize({
-		hash: true,
-		// Learn about plugins: https://revealjs.com/plugins/
-		plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-	});
-</script>
-<!-- SCRIPT REVEAL ET CSS  -->
+
 
 
 <!-- <script>

@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import ExerciseLayout from '~/layouts/Exercise.vue'
+import PresentationLayout from '~/layouts/Presentation.vue'
 
 import '~/assets/scss/styles.scss'
 
@@ -138,12 +139,17 @@ library.add(
     // Set default layout as a global component
     Vue.component('Layout', DefaultLayout)
     Vue.component('Exercise', ExerciseLayout)
+    Vue.component('Presentation', PresentationLayout)
     head.link.push({
       rel: 'stylesheet',
       href: '/assets/css/utility.min.css'
-    },{
+    
+      },{
       rel: 'stylesheet',
       href: '/assets/css/dsfr.min.css'
+      },{
+      rel: 'stylesheet',
+      href: '/assets/css/reveal.css'
     })
     Vue.component('font-awesome', FontAwesomeIcon)
     head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' }
