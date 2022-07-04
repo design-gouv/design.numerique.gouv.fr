@@ -1,6 +1,7 @@
 <template>
     <div>
-        <slot />
+        <h1>PDF REVEAL</h1>
+        <slot/>
     </div>
 </template>
 
