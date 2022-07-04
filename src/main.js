@@ -150,6 +150,10 @@ library.add(
       },{
       rel: 'stylesheet',
       href: '/assets/css/reveal.css'
+      },{
+      rel: 'stylesheet',
+      href: '/assets/css/custom.css'
+    
     })
     Vue.component('font-awesome', FontAwesomeIcon)
     head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' }

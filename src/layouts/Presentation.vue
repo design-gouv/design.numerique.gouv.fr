@@ -20,4 +20,6 @@ export default {
         document.body.appendChild(reveal);
     }
 }
+
+// est ce qu'il peut y avoir plusieurs
 </script>
