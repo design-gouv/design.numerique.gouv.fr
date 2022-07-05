@@ -143,17 +143,15 @@ library.add(
     head.link.push({
       rel: 'stylesheet',
       href: '/assets/css/utility.min.css'
-    
       },{
       rel: 'stylesheet',
       href: '/assets/css/dsfr.min.css'
       },{
       rel: 'stylesheet',
-      href: '/assets/css/reveal.css'
+      href: 'static/assets/css/reveal.css'
       },{
       rel: 'stylesheet',
-      href: '/assets/css/custom.css'
-    
+      href: 'static/assets/css/custom.css'
     })
     Vue.component('font-awesome', FontAwesomeIcon)
     head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' }

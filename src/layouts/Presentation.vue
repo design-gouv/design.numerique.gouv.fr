@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>PDF REVEAL</h1>
-        <slot/>
+            <slot></slot>
     </div>
 </template>
 
@@ -20,6 +20,4 @@ export default {
         document.body.appendChild(reveal);
     }
 }
-
-// est ce qu'il peut y avoir plusieurs
 </script>
