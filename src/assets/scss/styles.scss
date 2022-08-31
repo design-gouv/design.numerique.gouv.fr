@@ -44,6 +44,10 @@ li.fr-card {
       text-align: center;
     }
 
+    &-right {
+      text-align: right;
+    }
+
     &-bold {
       font-weight: bold;
     }
@@ -314,7 +318,7 @@ li.fr-card {
       div.dg-criterion {
       ul li p {
         margin-bottom: 0;
-      }        
+      }
       }
 
     }
