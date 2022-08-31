@@ -13,12 +13,12 @@
                 <g-link to="/recrutement/" class="fr-breadcrumb__link">Design</g-link>
               </li>
               <li>
-                <span aria-current="page">Recensement des designers de l'État</span>
+                <span aria-current="page">Recensement des designers de l’État</span>
               </li>
             </ol>
           </nav>
 
-          <h1>Recensement des designers de l'État</h1>
+          <h1>Recensement des designers de l’État</h1>
           <p class="fr-text--lead">
             Afin de mieux connaître l’intégration du design au sein de l’État, nous effectuons un recensement des designers et designeuses travaillant en administration centrale. Merci beaucoup pour votre participation !
           </p>
@@ -33,7 +33,7 @@
           </p>
           <div class="fr-collapse" id="accordion-106">
             <ul>
-              <li class="fr-mb-2w">Pour mieux connaître l’implantation du design au sein de l’État et améliorer notre travail de promotion du design. Ce recensement est confidentiel, nous ne partagerons aucune de vos informations personnelles. Et si vous donnez votre accord, pour vous consulter dans le cadre de nos missions pour améliorer les outils, dispositifs et accompagnements que nous proposons.</li>
+              <li class="fr-mb-2w">Pour mieux connaître l’intégration du design au sein de l’État et améliorer notre travail de promotion du design. Ce recensement est confidentiel, nous ne partagerons aucune de vos informations personnelles. Et si vous donnez votre accord, pour vous consulter dans le cadre de nos missions pour améliorer les outils, dispositifs et accompagnements que nous proposons.</li>
               <li>Dans un second temps, et si vous le désirez, pour poser les bases d’une communauté des designers au sein de l’État : proposer un répertoire, organiser des rencontres, des évènements, etc.</li>
             </ul>
           </div>
@@ -69,20 +69,20 @@
             <select class="fr-select" id="ministry" name="ministry" v-model="form.ministry" required>
               <option value="" selected disabled hidden>Selectionnez une option</option>
               <option value="1">Première ministre</option>
-              <option value="2">Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique</option>
-              <option value="3">Ministère de l'Intérieur et des Outre-mer</option>
-              <option value="4">Ministère de l'Europe et des Affaires étrangères</option>
+              <option value="2">Ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique</option>
+              <option value="3">Ministère de l’Intérieur et des Outre-mer</option>
+              <option value="4">Ministère de l’Europe et des Affaires étrangères</option>
               <option value="5">Ministère de la Justice</option>
               <option value="6">Ministère des Armées</option>
-              <option value="7">Ministère du Travail, du Plein emploi et de l'Insertion</option>
-              <option value="8">Ministère de l'Éducation nationale et de la Jeunesse</option>
-              <option value="9">Ministère de l'Enseignement supérieur et de la Recherche</option>
-              <option value="10">Ministère de l'Agriculture et de la Souveraineté alimentaire</option>
+              <option value="7">Ministère du Travail, du Plein emploi et de l’Insertion</option>
+              <option value="8">Ministère de l’Éducation nationale et de la Jeunesse</option>
+              <option value="9">Ministère de l’Enseignement supérieur et de la Recherche</option>
+              <option value="10">Ministère de l’Agriculture et de la Souveraineté alimentaire</option>
               <option value="11">Ministère de la Transition écologique et de la Cohésion des territoires</option>
               <option value="12">Ministère de la Transition énergétique</option>
               <option value="13">Ministère de la Culture</option>
               <option value="14">Ministère de la Santé et de la Prévention</option>
-              <option value="15">Ministère des Solidarités, de l'Autonomie et des personnes handicapées</option>
+              <option value="15">Ministère des Solidarités, de l’Autonomie et des personnes handicapées</option>
               <option value="16">Ministère de la Transformation et de la Fonction publiques</option>
               <option value="17">Ministère des Sports et des Jeux olympiques et paralympiques</option>
             </select>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="fr-radio-group">
                   <input type="radio" id="team-2" name="team" value="Freelance" v-model="form.team" required>
-                  <label class="fr-label" for="team-2">Vous faîtes partie d'une équipe qui comporte plusieurs designers</label>
+                  <label class="fr-label" for="team-2">Vous faîtes partie d’une équipe qui comporte plusieurs designers</label>
                 </div>
                 <div class="fr-radio-group">
                   <input type="radio" id="team-3" name="team" value="Prestataire" v-model="form.team" required>
@@ -156,7 +156,7 @@
               <div class="fr-fieldset__content">
                 <div class="fr-checkbox-group">
                   <input type="checkbox" id="interest-1" value="Répertoire" v-model="form.interest1">
-                  <label class="fr-label" for="interest-1">La création d’un répertoire (public ou interne) de designers de l'Etat</label>
+                  <label class="fr-label" for="interest-1">La création d’un répertoire (public ou interne) de designers de l’État</label>
                 </div>
                 <div class="fr-checkbox-group">
                   <input type="checkbox" id="interest-2" value="Canal" v-model="form.interest2">
@@ -170,7 +170,7 @@
             </fieldset>
           </div>
           <div class="fr-input-group">
-              <label class="fr-label" for="expectation">Qu’attenderiez-vous en particulier d'une communauté des designers de l'Etat ?</label>
+              <label class="fr-label" for="expectation">Qu’attenderiez-vous en particulier d'une communauté des designers de l’État ?</label>
               <textarea class="fr-input" type="text" id="expectation" v-model="form.expectation" required></textarea>
           </div>
           <div class="fr-input-group">
@@ -178,7 +178,7 @@
               <textarea class="fr-input" type="text" id="more" v-model="form.more"></textarea>
           </div>
 
-          <p><small>Nous utiliserons les informations recueillies ci-dessus pour alimenter notre répertoire des designers travaillant pour l'Etat et pour vous contacter dans le cadre de nos missions.</small></p>
+          <p><small>Nous utiliserons les informations recueillies ci-dessus pour alimenter notre répertoire des designers travaillant pour l’État et pour vous contacter dans le cadre de nos missions.</small></p>
           <p><small>Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.</small></p>
           <button class="fr-btn" id="submit" type="submit">Envoyer</button>
         </form>
@@ -193,22 +193,22 @@
 
   export default {
     metaInfo: {
-      title: "Partager votre intérêt",
+      title: "Recensement des designers de l’État",
       meta: [{
         name: 'description',
         content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
       },
       {
         property: 'og:title',
-        content: "Partager votre intérêt - DesignGouv"
+        content: "Recensement des designers de l’État - DesignGouv"
       },
       {
         property: 'og:description',
-        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
+        content: "Afin de mieux connaître l’intégration du design au sein de l’État, nous effectuons un recensement des designers et designeuses travaillant en administration centrale."
       },
       {
         property: 'og:image',
-        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
+        content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
       },
       {
         name: "twitter:card",
@@ -220,15 +220,15 @@
       },
       {
         name: "twitter:title",
-        content: "Partager votre intérêt - DesignGouv"
+        content: "Recensement des designers de l’État - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
+        content: "Afin de mieux connaître l’intégration du design au sein de l’État, nous effectuons un recensement des designers et designeuses travaillant en administration centrale."
       },
       {
         name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/rejoindre-equipde.png"
+        content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
       }],
     },
     data () {
