@@ -121,7 +121,7 @@
 
         <form class="form" v-on:submit.prevent="addParticipant">
           <p class="fr-text--sm">Tous les champs sont obligatoires.</p>
-          <div v-if="futurOpenSessions.length > 1" class="fr-form-group">
+          <!-- <div v-if="futurOpenSessions.length > 1" class="fr-form-group">
             <fieldset class="fr-fieldset">
               <legend class="fr-fieldset__legend fr-text--regular" id='radio-hint-legend'>
                 Date de la session à laquelle vous souhaitez vous inscrire
@@ -135,7 +135,7 @@
                 </div>
               </div>
             </fieldset>
-          </div>
+          </div> -->
           <div v-if="$page.cours.prerequis" class="fr-form-group">
               <fieldset class="fr-fieldset">
                   <legend class="fr-fieldset__legend fr-text--regular" id='prerequis-legend'>
